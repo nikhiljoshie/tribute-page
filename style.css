@@ -1,0 +1,62 @@
+.center {
+    display: block;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+ul {
+    text-align: justify;
+    list-style: none;
+}
+
+#image {
+    display: block;
+    height: auto;
+    max-width: 75%;
+}
+
+#img-caption {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#title {
+    font-size: 400%;
+    width: 60vmax;
+}
+
+@media only screen and (min-width: 480px) {
+    ul li {
+        width: 100%;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    ul li {
+        width: 100%;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    ul li {
+        width: 100%;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .font {
+        padding: 0px 200px 15px 200px;
+    }
+
+    ul li {
+        width: 100%;
+        list-style: none;
+    }
+}
+
+@media (orientation: landscape) {
+}
